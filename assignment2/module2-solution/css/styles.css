@@ -1,0 +1,100 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+	color: #643232;
+	margin: 3% 0% 3% 0%;
+}
+
+#section1, #section2, #section3 {
+	position: relative;	
+	padding: 0.5%;
+	margin: 1%;
+	border: 1px solid #000000;
+	background-color: #d3d3d3;
+}
+
+p.description {
+	position: relative;
+	text-align: justify;	
+	top: 10px;
+	padding: 2%;
+}
+
+.title1,.title2,.title3 {
+	position: absolute;
+	font-size: 125%;
+	text-align: center;
+	font-weight: bold;	
+	margin: 0;	
+	top: 0;
+	left: 70%;	
+	border: 1px solid #000000;
+	border-right: 0;
+	border-top: 0;
+	width: 30%;
+}
+
+.title1 {
+	background-color: #ff0000;
+}
+
+.title2 {
+	background-color: #0000ff;
+}
+
+.title3 {
+	background-color: #00ff00;
+}
+
+
+/********** Desktop Version **********/
+@media (min-width: 992px) {
+	#section1, #section2, #section3 {
+		width: 30%;
+		float: left;
+	}
+
+	#section1 {
+		margin-left: 3%;
+	}
+}
+
+/********** Tablet Version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1, #section2 {
+		width: 45%;
+		float: left;
+	}
+
+	#section1 {
+		margin-left: 4%;
+	}
+
+	#section3 {
+		float: left;
+		margin: 1% 4% 1% 4%;
+	}
+
+	.title3 {
+		width: 15%;
+		left: 85%;
+	}
+}
+
+/********** Mobile Version **********/
+@media (max-width: 767px) {
+	#section1,#section2,#section3 {
+		margin: 1% 4% 1% 4%;
+	}
+
+}
+
