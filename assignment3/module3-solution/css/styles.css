@@ -2,8 +2,14 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	font-family: Arial,Verdana,sans-serif;
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #000000;
+}
+.navbar-brand {
+	font-weight: bold;
 }
 #nav-list {
   margin-top: 10px;
@@ -11,7 +17,7 @@
 #nav-list a {
   color: #68514C;
   text-align: center;
-  background-color: #E2C5BF
+  background-color: #F9E79F;
 }
 #nav-list a:hover {
 	color: #000000;
@@ -19,11 +25,20 @@
 	cursor: pointer;
 }
 #title {
+	font-weight: bold;
 	margin-top: 2%;
 	font-size: 175%;
 }
-#main-content {
+h3 {
+	font-size: 150%;
+	font-weight: bold;
+}
+#main-section {
+	padding: 2%;
 	margin: 2% auto 2% auto;
-	height: 1000px;
-	background-color: #AE6565;
+	background-color: #EDBB99;
+}
+section p {
+	text-align: justify;
+	line-height: 180%;
 }
