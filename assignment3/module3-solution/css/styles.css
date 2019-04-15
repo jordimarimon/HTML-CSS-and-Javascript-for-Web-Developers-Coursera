@@ -5,36 +5,34 @@
 body {
 	font-family: Arial,Verdana,sans-serif;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #000000;
-}
-.navbar-brand {
+.navbar-light .navbar-brand {
 	font-weight: bold;
+	font-size: 225%;
+	color: #0000ff;
 }
-#nav-list {
-  margin-top: 10px;
+#nav-list li {
+	font-weight: bold;
+	color: #68514C;
+	text-align: center;
+	background-color: #F9E79F;
 }
-#nav-list a {
-  color: #68514C;
-  text-align: center;
-  background-color: #F9E79F;
-}
-#nav-list a:hover {
+#nav-list li:hover {
 	color: #000000;
 	background-color: #EEE8E8;
 	cursor: pointer;
 }
 #title {
+	color: #00ff00;
 	font-weight: bold;
 	margin-top: 2%;
-	font-size: 175%;
+	font-size: 215%;
 }
 h3 {
-	font-size: 150%;
+	font-size: 175%;
 	font-weight: bold;
 }
 #main-section {
-	padding: 2%;
+	padding: 2% 5% 2% 5%;	
 	margin: 2% auto 2% auto;
 	background-color: #EDBB99;
 }

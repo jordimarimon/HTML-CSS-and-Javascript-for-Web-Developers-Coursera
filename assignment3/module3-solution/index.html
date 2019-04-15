@@ -12,36 +12,29 @@
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery-3.4.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/ajax-utils.js"></script>
 	<!-- /core JS files -->
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">Food, LLC</a>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">Food, LLC</a>
 
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
-					data-target="#collapsable-nav" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div> <!-- navbar-header -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-			<div id="collapsable-nav" class="collapse navbar-collapse">
-				<ul id="nav-list" class="nav navbar-nav navbar-right">					
-					<li id="navChickenButton" class="visible-xs active"><a>CHICKEN</a></li>
-					<li id="navBeefButton" class="visible-xs active"><a>BEEF</a></li>
-					<li id="navSushiButton" class="visible-xs active"><a>SUSHI</a></li>
-				</ul>
-			</div> <!-- collapsable-nav -->			
-		</div> <!-- container -->		
-	</nav> <!-- navbar -->
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul id="nav-list" class="navbar-nav mr-auto">
+				<li class="d-block d-sm-none navbar-text"><a>CHICKEN</a></li>
+				<li class="d-block d-sm-none navbar-text"><a>BEEF</a></li>
+				<li class="d-block d-sm-none navbar-text"><a>SUSHI</a></li>
+			</ul>
+		</div>
+	</nav>
 
 	<div id="main-content" class="container">
         <h2 id="title" class="text-center">Our Menu</h2>
