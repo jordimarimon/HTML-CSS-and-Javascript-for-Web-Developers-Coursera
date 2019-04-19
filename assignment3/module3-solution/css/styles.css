@@ -31,12 +31,14 @@ h3 {
 	font-size: 175%;
 	font-weight: bold;
 }
-#main-section {
-	padding: 2% 5% 2% 5%;	
-	margin: 2% auto 2% auto;
-	background-color: #EDBB99;
+section {
+	padding: 1%;
+	margin-top: 5%;
 }
 section p {
 	text-align: justify;
 	line-height: 180%;
+}
+section a {
+	display: block;
 }
